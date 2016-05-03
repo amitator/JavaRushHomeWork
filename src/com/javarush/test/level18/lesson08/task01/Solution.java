@@ -19,16 +19,16 @@ public class Solution {
     }
 
     public static class DecoratorMyRunnableImpl implements Runnable {
-        private RunnableImpl original;
+        Runnable original;
 
-        public DecoratorMyRunnableImpl(RunnableImpl runnableImpl) {
+        public DecoratorMyRunnableImpl(Runnable runnableImpl) {
             this.original = runnableImpl;
         }
 
         @Override
         public void run()
         {
-            System.out.print("DecoratorMyRunnableImpl body");
+            System.out.print("DecoratorMyRunnableImpl body ");
             original.run();
         }
     }
