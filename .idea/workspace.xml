@@ -129,6 +129,7 @@
         <option value="$PROJECT_DIR$/src/com/javarush/test/level19/lesson03/task03/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/javarush/test/level19/lesson03/task04/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/javarush/test/level19/lesson03/task05/Solution.java" />
+        <option value="$PROJECT_DIR$/src/com/javarush/test/level19/lesson05/task01/Solution.java" />
       </list>
     </option>
   </component>
@@ -223,6 +224,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="level19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaRushHomeWork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="level19" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lesson03" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -242,6 +269,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="level19" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -704,7 +735,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17051283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17051283" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -815,7 +846,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level15/lesson12/home05/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level15/lesson12/home06/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level15/lesson12/home07/Solution.java" />
     <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level15/lesson12/home07/Constants.java" />
@@ -991,18 +1021,25 @@
         <state relative-caret-position="34">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <element signature="e#452#468#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1341#1342#0" expanded="true" />
-            <element signature="e#2681#2682#0" expanded="true" />
-            <element signature="e#2735#2736#0" expanded="true" />
-            <element signature="e#2781#2782#0" expanded="true" />
-            <element signature="e#2829#2830#0" expanded="true" />
-            <element signature="e#2920#2921#0" expanded="true" />
-            <element signature="e#2973#2974#0" expanded="true" />
-            <element signature="e#3019#3020#0" expanded="true" />
-            <element signature="e#3077#3078#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="false" />
+            <element signature="e#1341#1342#0" expanded="false" />
+            <element signature="e#2681#2682#0" expanded="false" />
+            <element signature="e#2735#2736#0" expanded="false" />
+            <element signature="e#2781#2782#0" expanded="false" />
+            <element signature="e#2829#2830#0" expanded="false" />
+            <element signature="e#2920#2921#0" expanded="false" />
+            <element signature="e#2973#2974#0" expanded="false" />
+            <element signature="e#3019#3020#0" expanded="false" />
+            <element signature="e#3077#3078#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/javarush/test/level19/lesson05/task01/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="49" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
