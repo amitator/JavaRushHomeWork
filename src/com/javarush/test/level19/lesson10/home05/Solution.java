@@ -18,7 +18,7 @@ public class Solution {
             while (reader.ready()){
                 String line = reader.readLine();
 
-                if (line.length() > 1) {
+                if (line.length() > 0) {
                     String[] strArray = line.split(" ");
 
                     for (String str: strArray){
