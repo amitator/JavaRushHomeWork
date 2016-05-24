@@ -3,6 +3,7 @@ package com.javarush.test.level20.lesson02.task01;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 /* Читаем и пишем в файл: Human
@@ -64,14 +65,14 @@ public class Solution {
             writer.println(isNamePresented);
             if ("yes".equals(isNamePresented)) {
                 writer.println(name);
-            }
 
-            isAssetPresent = !assets.isEmpty() ? "yes" : "no";
+                isAssetPresent = !assets.isEmpty() ? "yes" : "no";
+                writer.println(isAssetPresent);
 
-            if (assets.size() != 0) {
-                writer.println(name);
-                for (Asset ass: assets){
-                    writer.println(ass);
+                if (assets.size() != 0) {
+                    for (Asset ass: assets){
+                        writer.println(ass.getName());
+                    }
                 }
             }
 
@@ -85,17 +86,20 @@ public class Solution {
             isNamePresented = reader.readLine();
             if ("yes".equals(isNamePresented)) {
                 name = reader.readLine();
+
+                isAssetPresent = reader.readLine();
+                if ("yes".equals(isAssetPresent)){
+                    String str;
+                    List<Asset> listLoaded = new LinkedList<>();
+                    while ((str = reader.readLine()) != null){
+                        Asset tmpAss = new Asset(str);
+                        listLoaded.add(tmpAss);
+                    }
+                    assets.addAll(listLoaded);
+                }
             }
 
-            isAssetPresent = reader.readLine();
-            if ("yes".equals(isAssetPresent)){
-                String str;
-                List<Asset> listLoaded = null;
-                while ((str = reader.readLine()) != null){
-                    listLoaded.add(new Asset(str));
-                }
-                assets.addAll(listLoaded);
-            }
+
 
         }
     }
